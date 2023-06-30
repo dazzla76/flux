@@ -36,7 +36,7 @@ data:
     # Kubernetes Service settings
     service:
       enabled: true
-      annotations: {}
+      annotations: {external-dns.alpha.kubernetes.io/hostname=podinfo.lan.dazzla.net}
       type: LoadBalancer
       metricsPort: 9797
       httpPort: 9898
