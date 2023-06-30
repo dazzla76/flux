@@ -37,7 +37,7 @@ data:
     service:
       enabled: true
       annotations: {external-dns.alpha.kubernetes.io/hostname: podinfo.lan.dazzla.net}
-      type: LoadBalancer
+      type: ClusterIP
       metricsPort: 9797
       httpPort: 9898
       externalPort: 9898
